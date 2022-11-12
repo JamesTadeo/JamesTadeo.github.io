@@ -31,7 +31,7 @@ h2 {
 }
 
 .menuboxSizeLock {
-    height: 200px;
+    height: 225px;
 }
 
 .menuboxResizeable {
@@ -94,7 +94,6 @@ h2 {
 .mb-pad {
     padding: 15px;
 }
-
 
 /********** DESKTOP BREAKPOINT **********/
 @media (min-width: 992px) {
