@@ -23,7 +23,7 @@ h2 {
 /* Shades of green - https://cssgradient.io/shades-of-green/ */
 .menubox {
     background-color: #f2f3f4;
-    border: 1px solid black;
+    border: 1px solid #a9a9a9;
     /* height: 200px; */
     margin-left: auto;
     margin-right: auto;
@@ -39,8 +39,8 @@ h2 {
 }
 
 .menuboxTitle {
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    border-bottom: 1px soli #a9a9a9;
+    border-left: 1px solid #a9a9a9;
     color: #808080;
     font-family: Helvetica;
     float: right;
