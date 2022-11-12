@@ -1,7 +1,7 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
-    font-family:"'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif'";
+    font-family: Helvetica;
 }
 
 /* Add something so it doesn't completely kill our eyes
@@ -61,6 +61,11 @@ h2 {
 
 .fun {
     background-color: #696969;
+    color: #e5e4e2;
+}
+
+.coursera {
+    background-color: #214fc6;
     color: #e5e4e2;
 }
 
