@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Coursera Online Courses Main</title>
     <link rel="stylesheet" href="css/style.css">
+    <script rel="script" src="js/util.js"></script>
 </head>
     <body>
             
         <h1>James Tadeo's Dev Journal</h1>
+
+        <div class="searchBox">
+            <input type="text" id="SearchTxt" /><input type="button" id="SearchBtn" value="Search This Page" onclick="doSearch(document.getElementById('SearchTxt').value)" />
+        </div>
 
         <div class="row">
 
@@ -17,7 +22,7 @@
                     <h2 class="menuboxTitle tech">Hello There!</h2>
                     <p class="menuboxInfo">
                         <img class="circleAvatar" src="images/JamesPortrait_squared_1mb.jpg" alt="James Tadeo Programmer Profile" width="100px">
-                       I'm hoping this will give you an idea of the knowledge and skills I've acquired as I go about my developer training at various Universities and Education centres.
+                       I'm hoping this will give you an idea of the knowledge and skills I've acquired as I go about my developer training at various Universities and Education / Training centres.
                     </p>
                 </div>
             </div>
@@ -79,6 +84,5 @@
                 </div>
             </div>
         </div>
-
     </body>
 </html>

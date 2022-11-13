@@ -20,6 +20,27 @@ h2 {
     margin: 0px;
 }
 
+input {
+    font-size: 18px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+input#SearchTxt {
+    padding: 10px;
+    width: 400px
+}
+
+input#SearchBtn {
+    width: 200px
+}
+
+.searchBox {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .circleAvatar {
     border-radius: 50%;
     float: left;
@@ -30,7 +51,6 @@ h2 {
 .menubox {
     background-color: #f2f3f4;
     border: 1px solid #a9a9a9;
-    /* height: 200px; */
     margin-left: auto;
     margin-right: auto;
     width: 100%;
