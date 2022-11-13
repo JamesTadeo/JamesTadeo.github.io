@@ -37,6 +37,7 @@ input#SearchTxt {
 }
 
 input#SearchBtn {
+    margin-left: 15px;
     width: 200px
 }
 
