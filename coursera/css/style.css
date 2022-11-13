@@ -83,6 +83,7 @@ h2 {
     margin-left: auto;
     padding: 45px 20px 4px 20px;
     width: 100%;
+    word-wrap: break-word;
 }
 
 /* Simple Responsive Framework. */
