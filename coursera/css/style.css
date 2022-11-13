@@ -8,6 +8,7 @@
 See https://www.cssportal.com/css-color-converter/E0E0E0 */
 body {
     background-color: #E0E0E0;
+    margin-top: 200px;
 }
 
 #fixHeader {
@@ -148,7 +149,7 @@ p {
 
 /* Simple Responsive Framework. */
 .row {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     width: 100%;
 }
     
@@ -297,9 +298,9 @@ p {
         width: 95%;
     }
 
-    .row {
-        margin-top: 170px;
-        width: 100%;
+
+    body {
+        margin-top: 180px;
     }
 
     h1 {
