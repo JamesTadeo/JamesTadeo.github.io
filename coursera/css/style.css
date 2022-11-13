@@ -10,6 +10,15 @@ body {
     background-color: #E0E0E0;
 }
 
+#fixHeader {
+    background-color: #E0E0E0;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 h1 {
     font-size: 60px;
     font-family: 'Lobster', cursive;
@@ -139,6 +148,7 @@ p {
 
 /* Simple Responsive Framework. */
 .row {
+    margin-top: 180px;
     width: 100%;
 }
     
