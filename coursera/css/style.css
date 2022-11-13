@@ -1,7 +1,6 @@
 /********** Base styles **********/
 * {
     box-sizing: border-box;
-    font-family: Helvetica;
     border-radius: 5px;
 }
 
@@ -12,7 +11,8 @@ body {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -30,6 +30,10 @@ input {
     font-size: 18px;
     height: 35px;
     margin-bottom: 15px;
+}
+
+p {
+    font-family: Helvetica;
 }
 
 input#SearchTxt {
