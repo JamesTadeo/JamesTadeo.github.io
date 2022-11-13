@@ -37,7 +37,7 @@ h2 {
 }
 
 .menuboxSizeLock {
-    height: 250px;
+    height: 100%;
 }
 
 .menuboxResizeable {
