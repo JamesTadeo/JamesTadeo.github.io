@@ -69,6 +69,12 @@ input#SearchBtn {
     margin: 8px;
 }
 
+.centerMe {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* Shades of green - https://cssgradient.io/shades-of-green/ */
 .menubox {
     background-color: #f2f3f4;
