@@ -25,6 +25,7 @@ h1 {
     font-family: 'Lobster', cursive;
     margin-bottom: 15px;
     text-align: center;
+    /* text-shadow: 1px 1px 1px #222; */
 }
 
 h1 a {
