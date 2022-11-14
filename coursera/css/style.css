@@ -130,17 +130,6 @@ input#SearchBtn {
     word-wrap: break-word;
 }
 
-/* p {
-    color: #393434;
-    font-family: Helvetica;
-    line-height: 150%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 2px 20px 2px 20px;
-    width: 100%;
-    word-wrap: break-word;
-} */
-
 p {
     margin-right: auto;
     margin-left: auto;
@@ -200,7 +189,12 @@ p {
     .col-lg-12 {
     width: 100%;
     }
+
+    .menuboxSizeLock {
+        min-height: 350px;
+    }
 }
+
 
 
 /********** TABLET BREAKPOINT **********/
@@ -243,6 +237,10 @@ p {
     }
     .col-md-12 {
     width: 100%;
+    }
+
+    .menuboxSizeLock {
+        min-height: 350px;
     }
 }
 
