@@ -136,8 +136,24 @@ Extra small
 */
 @media (min-width: 575px) {
 
-  .hideMenu {
-    visibility: hidden;
+    .hideMenu {
+      visibility: hidden;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+  .menuBoxInfo {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menuBoxTitle {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
