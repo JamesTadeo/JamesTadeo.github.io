@@ -106,8 +106,9 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
   border: 1px;
 }
 
-.collapse {
-  background-color: none;
+.jt-navbar-up {
+  background-color: white;
+  margin-top: -1px;
 }
 
 .navbar-default {
@@ -117,6 +118,7 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 
 .navbar-collapse {
   border: none;
+  background-color: white;
 }
 
 .navbar-default .navbar-nav>li>a {
