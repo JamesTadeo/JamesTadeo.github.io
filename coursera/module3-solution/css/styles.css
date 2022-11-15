@@ -31,6 +31,13 @@ Create a single really tall section that will use the Bootstrap Grid and take up
 Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus. Et magnis dis parturient montes. Enim sit amet venenatis urna cursus eget nunc. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Integer malesuada nunc vel risus. Nisl tincidunt eget nullam non nisi. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Quis blandit turpis cursus in. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Odio ut sem nulla pharetra diam sit amet nisl. Blandit massa enim nec dui nunc mattis enim.
 */
 
+.container-fluid {
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .navbar-header {
   height: 65px;
 }
@@ -73,6 +80,7 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 
 .chicken {
   background-color: coral;
+  width: 100%;
 }
 
 .beef {
@@ -91,8 +99,12 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
   background-color: none;
 }
 
+.navbar-default {
+  background-color: #d0c5c6;
+  border-radius: 0px;
+}
+
 .navbar-collapse {
-  background-color: white;
   border: none;
 }
 
@@ -101,6 +113,9 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
   font-weight: 400;
 }
 
+
+
+
 /* 
 https://getbootstrap.com/docs/4.0/layout/grid/ 
 Extra small
@@ -108,11 +123,17 @@ Extra small
 ≥576px	Medium
 ≥768px
 */
-@media (min-width: 576px) {
+@media (min-width: 575px) {
 
   .hideMenu {
     visibility: hidden;
   }
-  
+}
 
+
+@media (min-width: 768px){
+
+  .navbar-right {
+    height: 65px;
+  }
 }
