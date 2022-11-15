@@ -63,6 +63,8 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 }
 
 .menutitle {
+  font-size: 28px;
+  font-weight: 600;
   margin-top: -10px;
   padding-bottom: 10px;
 }
@@ -76,7 +78,8 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 .menuBoxTitle {
   background-color: #dcdcdc;
   font-size:20px;
-  padding: 10px;
+  font-weight: 600;
+  padding-top: 25px;
 }
 
 .menuBoxInfo {
@@ -119,6 +122,10 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 .navbar-default .navbar-nav>li>a {
   color: white;
   font-weight: 400;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
 }
 
 
