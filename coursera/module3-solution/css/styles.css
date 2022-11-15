@@ -68,11 +68,8 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 }
 
 .menuBox {
-  /* background-color: #dcdcdc; */
-  /* margin: 15px; */
   margin-left: auto;
   margin-right: auto;
-  /* padding: 10px; */
   margin-bottom: 20px;
 }
 
@@ -125,8 +122,6 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 }
 
 
-
-
 /* 
 https://getbootstrap.com/docs/4.0/layout/grid/ 
 Extra small
@@ -135,7 +130,6 @@ Extra small
 ≥768px
 */
 @media (min-width: 575px) {
-
     .hideMenu {
       visibility: hidden;
     }
@@ -143,7 +137,6 @@ Extra small
 
 
 @media (max-width: 575px) {
-
   .menuBoxInfo {
     width: 90%;
     margin-left: auto;
@@ -159,7 +152,6 @@ Extra small
 
 
 @media (min-width: 768px){
-
   .navbar-right {
     height: 65px;
   }
