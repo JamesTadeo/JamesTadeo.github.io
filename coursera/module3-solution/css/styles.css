@@ -31,6 +31,7 @@ Create a single really tall section that will use the Bootstrap Grid and take up
 Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus. Et magnis dis parturient montes. Enim sit amet venenatis urna cursus eget nunc. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Integer malesuada nunc vel risus. Nisl tincidunt eget nullam non nisi. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Quis blandit turpis cursus in. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Odio ut sem nulla pharetra diam sit amet nisl. Blandit massa enim nec dui nunc mattis enim.
 */
 
+
 .container-fluid {
   /* padding-right: 15px; */
   /* padding-left: 15px; */
@@ -44,6 +45,7 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 
 .navbar-default .navbar-brand {
   color: white;
+  text-shadow: 1px 1px 1px #222;
 }
 
 .navbar-brand {
@@ -83,6 +85,7 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 .menuBoxInfo {
   background-color: #dcdcdc;
   font-size: 14px;
+  line-height: 160%;
   padding: 10px;
 }
 
