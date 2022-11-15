@@ -60,9 +60,21 @@
             
         </div><!-- /.container -->
 
+
+
         <!-- jQuery (Bootstrap JS plugins depend on it) -->
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
+
+        <script>
+          // Hide the menu onclick https://stackoverflow.com/questions/21203111/bootstrap-3-collapsed-menu-doesnt-close-on-click
+            $(document).on('click','.navbar-collapse.in',function(e) {
+              if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+              $(this).collapse('hide');
+              }
+            });
+        </script>
+
     </body>
 </html>
