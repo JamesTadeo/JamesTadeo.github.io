@@ -59,7 +59,8 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 } */
 
 .navbar-default .navbar-nav>li>a {
-  /* color: white; */
+  color: white;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -187,8 +188,4 @@ Extra small
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #FFF;
-}
-
-.jt-link-color {
-  color: #FFF;
 }
