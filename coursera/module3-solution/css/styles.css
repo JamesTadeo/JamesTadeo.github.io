@@ -59,7 +59,7 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 } */
 
 .navbar-default .navbar-nav>li>a {
-  color: white;
+  /* color: white; */
   font-weight: 400;
 }
 
@@ -81,6 +81,7 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
   padding-left: 40px;
   font-size: 28px;
 }
+
 
 .logo {
   font-weight: 900;
@@ -131,6 +132,10 @@ Fermentum dui faucibus in ornare quam viverra. Consectetur a erat nam at lectus.
 }
 
 
+.jt-visible-xs {
+  visibility: hidden;
+}
+
 /* 
 https://getbootstrap.com/docs/4.0/layout/grid/ 
 Extra small
@@ -142,6 +147,7 @@ Extra small
     .hideMenu {
       visibility: hidden;
     }
+
 
 }
 
@@ -163,6 +169,10 @@ Extra small
     border: none;
     background-color: white;
   }
+
+  .jt-visible-xs {
+    visibility: visible;
+  }
   
 }
 
@@ -171,4 +181,10 @@ Extra small
     height: 65px;
   }
 
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
 }
