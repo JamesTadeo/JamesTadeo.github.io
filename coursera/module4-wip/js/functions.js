@@ -72,3 +72,36 @@ console.log("Result for function A: " + A());
 console.log("Result for function B: " + B());
 console.log(x);
 console.log(y);
+
+//----------------------
+
+console.log(this)
+
+// Lecture 42, Part 1: Javascript Types https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/4dwte/lecture-42-part-1-javascript-types
+
+/*
+JS has 7 built-in types
+
+Object - a collection of name/value pairs
+
+Primitive types represent a single, immutable value.
+Boolean - true or false
+Number - a double precision floating (no integers in JS)
+String - sequence of characters
+Null - signifies the lack of value vs definition
+Undefined - no value set on variable
+*Symbol is new to ES6 - Ecmascript 6
+*/
+
+//namespace example
+Person = {} //create object
+Person.name = "James";
+Person.hello = function () {
+    console.log(Person.name + " says hello!");
+}
+Person.hello();
+
+Person.name = "Jesse";
+Person.hello();
+
+///------------------
