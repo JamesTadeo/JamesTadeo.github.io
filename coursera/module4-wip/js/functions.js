@@ -125,7 +125,7 @@ orderChineseFoodAgainWith = function (sidedish) {
     if(sidedish === undefined) {
         sidedish = "noodles!";
     }
-    console.log("Order Chinese good again with " + sidedish);
+    console.log("Order Chinese food again with " + sidedish);
 }
 
 orderChineseFoodAgainWith("chicken wings!");
@@ -134,7 +134,7 @@ orderChineseFoodAgainWith();
 
 orderChineseFoodAgainWith2 = function (sidedish) {
     sidedish = sidedish || "whatever!"
-    console.log("Order Chinese good again with " + sidedish);
+    console.log("Order Chinese food again with " + sidedish);
 }
 
 orderChineseFoodAgainWith2("chicken wings!");
