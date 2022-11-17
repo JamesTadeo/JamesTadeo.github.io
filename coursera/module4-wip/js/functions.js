@@ -105,3 +105,37 @@ Person.name = "Jesse";
 Person.hello();
 
 ///------------------
+
+/*
+https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/ovB9V/lecture-44-handling-default-values
+
+Lecture 44: Handling Default Values
+*/
+
+function orderChineseFoodWith(sidedish){
+    console.log("Order Chinese food with " + sidedish);
+}
+
+orderChineseFoodWith("rice!");
+orderChineseFoodWith();
+
+//add a default value
+//another way to write a function
+orderChineseFoodAgainWith = function (sidedish) {
+    if(sidedish === undefined) {
+        sidedish = "noodles!";
+    }
+    console.log("Order Chinese good again with " + sidedish);
+}
+
+orderChineseFoodAgainWith("chicken wings!");
+orderChineseFoodAgainWith();
+
+
+orderChineseFoodAgainWith2 = function (sidedish) {
+    sidedish = sidedish || "whatever!"
+    console.log("Order Chinese good again with " + sidedish);
+}
+
+orderChineseFoodAgainWith2("chicken wings!");
+orderChineseFoodAgainWith2();
