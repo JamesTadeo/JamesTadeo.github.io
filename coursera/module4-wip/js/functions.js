@@ -214,6 +214,20 @@ console.log(myCircle2)
 console.log(myCircle2.radius);
 console.log(myCircle2.getArea());
 
+
+console.log("\n\nLecture 49: Object Literals and the 'this' Keyword - https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/XaYeq/lecture-49-object-literals-and-the-this-keyword");
+
+var literalCircle = {
+    radius: 10,
+    getArea: function(){
+        console.log(this);
+    }
+};
+
+literalCircle.getArea();
+
+
+
 console.log("\n\nLECTURE 50, Part1: Arrays");
 //https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/WWTOG/lecture-50-part-1-arrays
 
@@ -232,4 +246,12 @@ for(i=0; i < myArray.length; i++){
     console.log(myArray[i]);
 }
 
-
+var listInfoObj = {
+    name: "James",
+    age: "29",
+    passion: "programmer"
+}
+//Another way to loop through the array
+for(var prop in listInfoObj){
+    console.log(prop + ": " + listInfoObj[prop]);
+}
