@@ -214,3 +214,22 @@ console.log(myCircle2)
 console.log(myCircle2.radius);
 console.log(myCircle2.getArea());
 
+console.log("\n\nLECTURE 50, Part1: Arrays");
+//https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/WWTOG/lecture-50-part-1-arrays
+
+var myArray = ["James",
+29,
+function myFunc() {return "Hello";},
+{passion: "programmer"}];
+
+console.log(myArray);
+console.log(myArray[2]());
+console.log(myArray[3].passion);
+
+console.log("\n\nLoop through an array");
+//loop through array
+for(i=0; i < myArray.length; i++){
+    console.log(myArray[i]);
+}
+
+
