@@ -154,6 +154,20 @@ myOjbect2.myName = "James";
 console.log(myOjbect2.myName);
 
 
+console.log("\n\nLECTURE 46: FUNCTIONS EXPLAINED")
+//Lecture 46: Functions Explained - https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/xCdAU
+//function factory
+
+function makeMultiplier(multiplier){
+    function myFunc(x) {
+        return multiplier * x; //in our example 3 is passed as the multiplier and x is the number passed by the multiplyBy3
+    };
+    return myFunc;
+};
+
+var multiplyBy3 = makeMultiplier(3);
+console.log(multiplyBy3(10));
+
 // Lecture 48: Function Constructors, prototype, and the 'this'
 // https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/5hDX1/lecture-48-function-constructors-prototype-and-the-this-keyword
 
@@ -186,7 +200,7 @@ console.log(myCircle.getArea());
 //create an anonymous function
 function Circle2 (radius) {
     this.radius = radius;
-}
+};
 //refer to the function constructor's name
 //a prototype doesn't recreate the method over and over again in memory like our previous example where the function was created in the function constructor. A prototype creates one memory space to be used and that makes our code efficient and less processing takes place.
 Circle2.prototype.getArea = function () {
@@ -199,3 +213,4 @@ var myCircle2 = new Circle2(15)
 console.log(myCircle2)
 console.log(myCircle2.radius);
 console.log(myCircle2.getArea());
+
