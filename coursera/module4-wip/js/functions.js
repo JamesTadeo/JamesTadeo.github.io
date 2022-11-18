@@ -139,3 +139,63 @@ orderChineseFoodAgainWith2 = function (sidedish) {
 
 orderChineseFoodAgainWith2("chicken wings!");
 orderChineseFoodAgainWith2();
+
+//Quick practice see https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/z3Anw/lecture-45-part-2-creating-objects-using-object-literal-syntax
+var myObject = {};
+myObject.name = "Damian";
+myObject.hair = "brown";
+myObject.age = "28";
+
+console.log(myObject.name + "is " + myObject.age + " and has " + myObject.hair + " hair.");
+
+var myOjbect2 = {};
+myName = "What is your name?";
+myOjbect2.myName = "James";
+console.log(myOjbect2.myName);
+
+
+// Lecture 48: Function Constructors, prototype, and the 'this'
+// https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/5hDX1/lecture-48-function-constructors-prototype-and-the-this-keyword
+
+//When the function gets invoked it receives it own execution context
+function test() {
+    console.log(this); //points to the global window object
+    this.myName = "James";
+}
+test();
+console.log(window.myName);
+console.log(this.myName);
+
+//Function constructors can't return anything instead it returns the values of the object. Best practice is to name it with a capitial letter.
+function Circle (radius){
+    this.radius = radius;
+    //console.log(this);
+    this.getArea = function () {
+        return Math.PI * Math.pow(this.radius, 2);
+    };
+}
+
+//Instantiate the function object with the "new" keyword
+var myCircle = new Circle(10);
+console.log(myCircle);
+console.log(myCircle.radius);
+console.log(myCircle.getArea());
+
+//Using the prototype property - the issue with placing the function in the function Circle is that the this.getArea function gets executed everytime. A prototype property takes care of this
+
+//create an anonymous function
+function Circle2 (radius) {
+    this.radius = radius;
+}
+//refer to the function constructor's name
+//a prototype doesn't recreate the method over and over again in memory like our previous example where the function was created in the function constructor. A prototype creates one memory space to be used and that makes our code efficient and less processing takes place.
+Circle2.prototype.getArea = function () {
+    return Math.PI * Math.pow(this.radius, 2);
+}
+
+console.log(Circle2);
+
+var myCircle2 = new Circle2(15)
+console.log(myCircle2)
+console.log(myCircle2.radius);
+console.log(myCircle2.getArea());
