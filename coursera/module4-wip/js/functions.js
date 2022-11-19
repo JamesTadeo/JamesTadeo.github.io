@@ -140,6 +140,7 @@ orderChineseFoodAgainWith2 = function (sidedish) {
 orderChineseFoodAgainWith2("chicken wings!");
 orderChineseFoodAgainWith2();
 
+<<<<<<< Updated upstream
 //Quick practice see https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/z3Anw/lecture-45-part-2-creating-objects-using-object-literal-syntax
 var myObject = {};
 myObject.name = "Damian";
@@ -258,3 +259,69 @@ for(var prop in listInfoObj){
 
 console.log("\n\nLecture 52, Part 2: Immediately Invoked Function Expressions (IIFEs)");
 //IIFEs - Immediately Invoked Function Expressions - https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/DGFRL/lecture-52-part-2-immediately-invoked-function-expressions-iifes
+=======
+//----------------------------
+
+/* Lecture 46: Functions Explained
+ https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/xCdAU/lecture-46-functions-explained
+
+ Functions are first class data types. Whatever a variable or object can do, well so can a function! We can pass it as an argument. Assign it to a variable, and we can return it as a result from a function. A function is an object. This allows us to set properties to them.
+ */
+
+console.log("\n\nLecture 46: Functions Explained\n");
+function multiply(x,y) {
+    return x * y;
+}
+
+// console.log(multiply);
+console.log(multiply(2,3));
+
+//add a property
+multiply.version = "v.1.0.0";
+console.log(multiply.version);
+
+//another way to write it - if we need to have spaces or more verbose
+multiply["My Awesome Version"] = "v.1.0.1";
+console.log(multiply["My Awesome Version"]);
+
+//Function factory - a multplier maker
+function makeMultiplier(multiplier){
+
+    var myFunc = function (x) {
+        return multiplier * x;
+    };
+
+    return myFunc;
+};
+
+//we created a function called multiplyBy3
+var multiplyBy3 = makeMultiplier(3); //3 is what we are multiplying with
+console.log(multiplyBy3(10)); //10 would be the value of x that we pass to myFunc
+
+//we created a function called doubleAll
+var doubleAll = makeMultiplier(2); //3 is what we are multiplying with
+console.log(doubleAll(5)); //5 would be the value of x that we pass to myFunc
+
+//Passing functions as arguments
+//referencing functions we created earlier, in this case the multiplyBy3 and the doubleAll function
+function doOperation(x, operation){
+    return operation(x);
+};
+
+var result = doOperation(5, multiplyBy3);
+console.log(result);
+result = doOperation(100, doubleAll);
+console.log(result);
+
+
+/*
+Lecture 47, Part 1: Passing Variables by Value vs. by Reference
+https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/6RF3x/lecture-47-part-1-passing-variables-by-value-vs-by-reference
+*/
+console.log("\n\nLecture 47, Part 1: Passing Variables by Value vs. by Reference");
+
+/*
+In Javascript primitives are passed by value and objects are passed by reference.
+For example, if we are referring to primitives being passed, it means that whatever value is passed to a variable does NOT change the variable that passed it. With objects it's different. If we pass an object, there is a direct "link" or reference to the object. That means whatever is changed on the object passed will be reflected on the orginal object we are referencing.
+*/
+>>>>>>> Stashed changes
