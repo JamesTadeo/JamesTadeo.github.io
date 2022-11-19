@@ -34,6 +34,21 @@ WARNING!!! WARNING!!!
 More notes at my github.io page:
 https://jamestadeo.github.io/coursera/
 //////////////////////////////////////
+
+https://jamestadeo.github.io/coursera/module4-solution/
+
+Module 4 Solution for Review with Preview Pic
+
+Here's the link to the review page that contains a link to the solution:
+https://www.coursera.org/learn/html-css-javascript-for-web-developers/peer/LT6I0/module-4-coding-assignment/review/3PEKAWe8Ee2T5gqK_nBZmw
+
+
+Below is a preview of the link:
+https://jamestadeo.github.io/coursera/images/module4-solution-forum.png
+
+Here's a direct link to my solution:
+https://jamestadeo.github.io/coursera/module4-solution/
+
 */
 
 // STEP 1:
