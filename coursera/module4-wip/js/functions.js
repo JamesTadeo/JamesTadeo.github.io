@@ -255,3 +255,6 @@ var listInfoObj = {
 for(var prop in listInfoObj){
     console.log(prop + ": " + listInfoObj[prop]);
 }
+
+console.log("\n\nLecture 52, Part 2: Immediately Invoked Function Expressions (IIFEs)");
+//IIFEs - Immediately Invoked Function Expressions - https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/DGFRL/lecture-52-part-2-immediately-invoked-function-expressions-iifes
