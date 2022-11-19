@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     border-radius: 5px;
+    word-wrap: break-word;
 }
 
 /* Add something so it doesn't completely kill our eyes
@@ -43,10 +44,6 @@ input {
     margin-bottom: 15px;
 }
 
-p {
-    font-family: Helvetica;
-}
-
 input#SearchTxt {
     padding: 10px;
     width: 60%;
@@ -85,7 +82,9 @@ input#SearchBtn {
 }
 
 .menuboxSizeLock {
-    min-height: 270px;
+    /* min-height: 270px; */
+    display: block;
+    height: 100%;
 }
 
 .menuboxTitle {
@@ -98,6 +97,44 @@ input#SearchBtn {
     width: 180px;
     text-align: center;
 }
+
+
+/* https://www.webstaurantstore.com/blog/1884/interior-color-choices-and-your-restaurants-message.html */
+.menuboxInfo {
+    color: #393434;
+    font-family: Helvetica;
+    line-height: 150%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 45px 20px 4px 20px;
+    width: 100%;
+}
+
+p {
+    font-family: Helvetica;
+    line-height: 150%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2px 20px 2px 20px;
+}
+
+ul {
+    font-family: Helvetica;
+    line-height: 150%;
+}
+
+a:link, a:visited {
+    color: #4b3621;
+    text-decoration: underline;
+    cursor: auto;
+    font-weight: 400;
+  }
+  
+  a:link:active, a:visited:active {
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+  }
 
 .tech {
     background-color: #696969;
@@ -122,25 +159,6 @@ input#SearchBtn {
 .journal {
     background-color: #666699;
     color: #e5e4e2;
-}
-
-/* https://www.webstaurantstore.com/blog/1884/interior-color-choices-and-your-restaurants-message.html */
-.menuboxInfo {
-    color: #393434;
-    font-family: Helvetica;
-    line-height: 150%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 45px 20px 4px 20px;
-    width: 100%;
-    word-wrap: break-word;
-}
-
-p {
-    margin-right: auto;
-    margin-left: auto;
-    padding: 2px 20px 2px 20px;
-    word-wrap: break-word;
 }
 
 /* Simple Responsive Framework. */
