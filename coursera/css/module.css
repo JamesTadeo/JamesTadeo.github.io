@@ -1,0 +1,25 @@
+body {
+  font-family: Helvetica;
+  line-height: 150%;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.container {
+  
+}

@@ -21,6 +21,10 @@ body {
     width: 100%;
 }
 
+/* .url {
+    cursor: url(myBall.cur),auto;
+} */
+
 h1 {
     font-size: 60px;
     font-family: 'Lobster', cursive;
@@ -126,15 +130,25 @@ ul {
 a:link, a:visited {
     color: #4b3621;
     text-decoration: underline;
-    cursor: auto;
+    /* cursor: auto; */
+    cursor: pointer;
     font-weight: 400;
   }
   
   a:link:active, a:visited:active {
     color: black;
+    cursor: pointer;
     font-style: italic;
     font-weight: 500;
   }
+
+
+.weekBigText {
+    color: #4f7942;
+    font-family: 'Bungee', cursive;
+    font-size: 555%;
+    padding: 2px 20px 2px 20px;
+}
 
 .tech {
     background-color: #696969;
