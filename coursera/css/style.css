@@ -150,6 +150,31 @@ a:link, a:visited {
     padding: 2px 20px 2px 20px;
 }
 
+
+.lead-pic30 {
+    width: 30%;
+}
+
+.lead-pic32 {
+    width: 32%;
+}
+
+.lead-pic40 {
+    width: 40%;
+}
+
+.lead-pic50 {
+    width: 50%;
+}
+
+.lead-pic60 {
+    width: 60%;
+}
+
+.lead-pic80 {
+    width: 80%;
+}
+
 .tech {
     background-color: #696969;
     color: #e5e4e2;
